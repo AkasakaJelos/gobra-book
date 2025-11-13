@@ -169,7 +169,7 @@ func client() {
 	v1 := ll.Get(1)
 	// @ assert v0 == 33
 	// @ assert v1 == 22
-	ll := ll.Remove(1)
+	ll = ll.Remove(1)
 	l3 := ll.Length()
 	// @ assert ll.Head() == 33
 	// @ assert l3 == 1
